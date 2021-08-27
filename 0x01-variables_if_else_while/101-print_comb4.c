@@ -30,8 +30,8 @@ int main(void)
 
 			if (i < 700)
 			{
-				putchar(34);
-				putchar(22);
+				putchar(44);
+				putchar(32);
 			}
 		}
 	}
