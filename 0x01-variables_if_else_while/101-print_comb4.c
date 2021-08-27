@@ -27,9 +27,14 @@ int main(void)
 			putchar(k + '0');
 			putchar(l + '0');
 
+			if (i < 700)
+			{
+				putchar(44);
+				putchar(32);
+			}
 		}
 	}
-	PUTCHAR('\N');
+	putchar('\n');
 
-	RETURN (0);
+	return (0);
 }
