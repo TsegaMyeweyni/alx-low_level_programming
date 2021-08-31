@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
 * main - main
 * write a program tha prints Holberton, followed by a new line.
@@ -11,8 +11,8 @@ int main(void)
 
 	while (ch)
 	{
-		_putchar(ch);
-		ch ++;
+       	_putchar(ch);
+	ch ++;
 	}
 	_putchar('\n');
 return (0);
