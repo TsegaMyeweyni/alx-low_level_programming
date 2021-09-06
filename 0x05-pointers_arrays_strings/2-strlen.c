@@ -7,7 +7,7 @@
  */
 int _strlen(char *s)
 {
-int str;
-for (str = 0; s[str] != '\0'; ++str);
+int len;
+for (len = 0; s[len] != '\0'; ++len);
 return (0);
 }
