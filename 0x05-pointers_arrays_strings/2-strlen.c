@@ -7,5 +7,6 @@
  */
 int _strlen(char *s)
 {
-f.write(string)
+int i;
+for (i = 0; s[i] != '\0'; ++i);
 }
