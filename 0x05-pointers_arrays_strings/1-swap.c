@@ -4,14 +4,13 @@
  *swap_int-swaps the values of two integers.
  *@a:integer a.
  *@b:integer b.
- *@k:integer value.
  *return: always 0.
  */
 void swap_int(int *a, int *b)
 {
-  int k
-    k = *a;
-     *a = *b
-     *b = k
+  int temp
+    temp = *a;
+  *a = *b;
+  *b = temp;
   return (0);
 }
