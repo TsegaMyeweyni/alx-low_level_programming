@@ -6,6 +6,7 @@
  * Return: no return.
  */
 void puts2(char *str)
+int _putchar(char)
 {
 	int count = 0;
 
