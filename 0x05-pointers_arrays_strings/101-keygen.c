@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - generates random valid passwords for a program.
- * Return: 0 Always.
+ * Return: Always 0.
  */
 int main(void)
 {
