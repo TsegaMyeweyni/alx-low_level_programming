@@ -19,7 +19,7 @@ int _sqrt_recursion(int n)
  * Return: square root if natural square root, or -1 if none found
  */
 
-int halp(int c, int i)
+int halp(int c, int square, int i)
 {
 	int square;
 
