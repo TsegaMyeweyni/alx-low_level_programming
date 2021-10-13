@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  *add_nodeaddr - A function that mallocs a new space for a list
- *@head: A double pointer that points to my second list header, head_2.
+ *@head: A double pointer that point to my second list header, head_2.
  */
 addr_list *add_nodeaddr(addr_list **head, const void *addr)
 {
